@@ -22,6 +22,7 @@ export function Transactions() {
 
             <TransactionsContainer>
                 <SearchForm />
+
                 <TransactionsTable>
                     <tbody>
                         {transactions.map(transaction => (
